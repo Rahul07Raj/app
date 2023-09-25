@@ -1,0 +1,394 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+.max-width{
+    /* max-width: 1300px; */
+    /* padding: 0 80px; */
+    /* margin: auto; */ 
+    
+}
+
+
+
+/* navbar styling */
+
+.navbar{
+    position: sticky;
+    top: 0;
+    width: 100%;
+    padding: 1rem 2.5rem;
+    z-index: 999;
+    font-family: unset;
+    transition: all 0.3s ease;
+    justify-content: space-between;
+    background-color: white;
+
+}
+
+.navbar .sticky{
+    padding: 20px 0;
+    background: #fff;
+}
+
+.navbar .max-width{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    overflow: hidden;
+}
+
+
+
+.navbar .menu li{
+    list-style: none;
+    display: inline-block;
+    overflow: hidden;
+    margin: 1rem;
+}
+.navbar .menu li a{
+    text-decoration: none;
+    font-family: 'Josefin Sans', sans-serif;
+    display: block ;
+    color: #111;
+    font-size: 18px;
+    font-weight: 500;
+    /* margin-left: 25px; */
+    transition: color 0.3s ease;
+    text-decoration: none;
+}
+
+.navbar.sticky .menu li a:hover{
+    /* color: #fff; */
+    color: rgb(111, 39, 122);
+}
+.logo img{
+    width: 35%;
+}
+.menu-btn{
+    color: #fff;
+    font-size: 23px;
+    cursor: pointer;
+    display:none ;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+.container .first img{
+    width: 100%;
+}
+.container .first{
+    width: 100%;
+}
+.container .second{
+    background-color: #111;
+    width: 100%;
+    /* justify-content: center; */
+    /* text-align: center; */
+}
+.container .second .s-child{
+    /* width: 30%; */
+    text-align: center;
+    justify-content: center;
+    
+    
+}
+.container .second .s-child p{
+    margin-top: 12%;
+    color: #fff;
+    font-size: 21px;
+    line-height: 1.2;
+    letter-spacing: 4px;
+    /* white-space: pre-line; */
+    /* font-family: 'Josefin Sans', sans-serif; */
+font-family: 'Righteous', cursive;
+}
+.container .second .s-child button{
+    background-color: rgb(223, 152, 237);
+    padding: 20px 50px;
+    font-size: 18px;
+    margin-top: 5%;
+}
+
+.container-second{
+    background-color: #fff;
+    padding: 5%;
+}
+.container-second .section{
+    display: flex;
+}
+.container-second .section .inside-first {
+    width: 100%;
+    
+}
+.container-second .section .inside-first img{
+    width: 100%;
+    
+}
+.container-second .section .inside-second{
+    width: 100%;
+    padding-left: 4%;
+
+}
+.container-second .section .inside-second h2{
+    text-align: center;
+    font-weight: 400;
+    color: rgb(196, 119, 212);
+
+}
+.container-second .section .inside-second p{
+    color: rgb(94, 94, 94);
+    font-weight: 400;
+    line-height: 1.5;
+    margin-top: 5%;
+    
+}
+.container-second h1{
+    color: rgb(196, 119, 212);
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 5%;
+    letter-spacing: 4px;
+    font-weight: 700;
+    font-size: 33px;
+}
+
+.container-third{
+    display: flex;
+}
+.container-third .c-section-f{
+    width: 100%;
+}
+.container-third .c-section-f h1{
+    color: rgb(196, 119, 212);
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 5%;
+    letter-spacing: 2px;
+    font-weight: 700;
+    font-size: 33px;
+}
+.container-third .c-section-f p{
+    color: rgb(94, 94, 94);
+    font-weight: 400;
+    line-height: 1.5;
+    justify-content: center;
+    
+    padding-left: 5%;
+    
+}
+.container-third .c-section-s{
+    width: 100%;
+}
+.container-third .c-section-s img{
+    width: 100%;
+    padding: 2%;
+}
+
+.container-third .c-section-f button{
+    background-color: rgb(223, 152, 237);
+    padding: 20px 50px;
+    font-size: 18px;
+    margin-top: 5%;
+    margin-left: 33%;
+    
+}
+
+.social-media{
+    background-color: rgb(246, 246, 246);
+    text-align: center;
+    padding: 5%;
+    
+}
+
+.social-media span{
+   font-size: 40px;
+   margin-left: 5%;
+  
+}
+.social-media .facebook{
+    color: rgb(24, 119, 242);
+}
+.social-media .instagram{
+    color: rgb(225, 48, 108) ;
+}
+.social-media .linkedin{
+    color: rgb(40, 103, 178);
+}
+.social-media .twitter{
+    color: rgb(29, 161, 242);
+}
+.social-media .youtube{
+    color: rgb(255, 0, 0);
+}
+
+
+.sub{
+    background-color: #fff;
+    padding: 5%;
+    text-align: center;
+}
+.sub h1{
+    letter-spacing: 5px;
+}
+.sub p{
+    padding-top: 2%;
+    margin-bottom: 2%;
+}
+.sub input{
+    width: 40%;
+    height: 45px;
+    box-shadow: 0 6px  rgb(218, 218, 218);
+}
+.sub button{
+    background-color: rgb(223, 152, 237);
+    padding: 14px 30px;
+    font-size: 14px;
+    margin-left: 2%;
+  
+    
+}
+
+.footer{
+    background-color: #111;
+    padding: 3%;
+    color: rgb(145, 145, 145);
+    justify-content: center;
+    text-align: center;
+}
+.footer .ft .sp{
+    margin-right: 40%;
+}
+.footer .ft1{
+    align-items: center;
+    justify-content: center;
+    margin-top: 3%;
+}
+.footer .ft1 p{
+   color: #fff;
+}
+
+
+@media (max-width:947px) {
+    .max-width{
+        padding: 0 50px;
+    }
+    .menu-btn{
+        display: block;
+        z-index: 999;
+        color: #111;
+    }
+    .menu-btn i.active:before{
+        content: "\f00d";
+    }
+    .navbar .menu{
+        position: fixed;
+        height: 100vh;
+        width: 100%;
+        left: -100%;
+        top: 0;
+        background: #111;
+        text-align: center;
+        padding-top: 80px;
+        transition: all 0.3s ease;
+    }
+    .navbar.active .menu {
+        left: 0;
+      }
+    .navbar .menu li{
+        display: block;
+    }
+    .navbar .menu li a{
+        display: inline-block;
+        margin: 20px 0;
+        font-size: 25px;
+    }
+    .container .first{
+        display: none;
+    }
+    .container .second .s-child button {
+        margin-bottom: 6%;
+    }
+    .container-second .section{
+        display: block;
+    }
+    .container-second h1{
+        letter-spacing: 2px;
+    }
+    .container-second .section .inside-second h2 {
+        margin-top: 3%;
+    }
+    .container-second .section .inside-second{
+        text-align: center;
+    }
+    .container-third{
+        display:flex ;
+         flex-direction: column-reverse;
+    }
+    .container-third .c-section-f{
+        padding: 3%;
+    }
+    .container-third .c-section-f button{
+        margin-top: 2%;
+    margin-left: 42%;
+    }
+    .social-media span {
+        font-size: 35px;
+    }
+    .sub input{
+        width: 60%;
+    }
+    .footer .ft .sp {
+        margin-right: 0%;
+    }
+}
+
+@media (max-width:647px) {
+    .navbar.active .menu {
+        left: 0;
+      }
+    .container{
+        display: block;
+    }
+    .container .first {
+        display: block;
+    }
+    .container .second{
+        padding: 1%;
+    }
+    .container-second h1 {
+        font-size: 21px;
+    }
+    .container-third .c-section-f button {
+        margin-top: 2%;
+        margin-left: 30%;
+    }
+.container-third .c-section-f h1 {
+    font-size: 23px;
+    padding: 16px 36px;
+}
+.social-media span {
+    font-size: 29px;
+}
+.sub input {
+    width: 100%;
+}
+.sub button {
+    background-color: rgb(223, 152, 237);
+    padding: 14px 30px;
+    font-size: 14px;
+    margin-top: 3%;
+    width: 100%;
+}
+.sub button{
+    margin-left: 0;
+}
+}

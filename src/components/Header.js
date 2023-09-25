@@ -1,21 +1,31 @@
-// Header.js
-import React from 'react';
-import { Navbar, Nav } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
+import React from "react";
+import { Link } from "react-router-dom";
+import "./style.css"; 
 
-function Header() {
+
+const Header = () => {
   return (
-    <Navbar bg="dark" variant="dark" expand="lg" sticky="top">
-      <Navbar.Brand as={Link} to="/">Your Logo</Navbar.Brand>
-      <Navbar.Toggle aria-controls="basic-navbar-nav" />
-      <Navbar.Collapse id="basic-navbar-nav">
-        <Nav className="ml-auto">
-          <Nav.Link as={Link} to="/about">About Us</Nav.Link>
-          <Nav.Link as={Link} to="/contact">Contact Us</Nav.Link>
-        </Nav>
-      </Navbar.Collapse>
-    </Navbar>
+    <nav className="navbar sticky">
+        <div class="logo">
+          <img
+            src="https://img1.wsimg.com/isteam/ip/d34ada36-7020-4f77-9234-dce946fc15f9/blob-a8eee09.png/:/rs=w:370,h:208,cg:true,m/cr=w:370,h:208/qt=q:95"
+            alt=""
+          />
+        </div>
+        <ul className="menu">
+          <li>
+            <a href="/">Home</a>
+          </li>
+          <li>
+            <a href="/about">About Us</a>
+          </li>
+          <li>
+            <a href="/contact">Contact Us</a>
+          </li>
+        </ul>
+
+    </nav>
   );
-}
+};
 
 export default Header;

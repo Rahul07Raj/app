@@ -102,7 +102,7 @@ const About = () => {
        </Row>
        </div>
 
-      <Row className="mt-5">
+      <Row className="mt-5 mb-4">
         <Col md={12} className="text-center">
           <h2 style={{ color: "rgb(196, 119, 212)"}}>Connect with Mr. Manoj Agrawal</h2>
           <div className="social-icons mt-4 ">

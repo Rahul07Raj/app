@@ -47,7 +47,7 @@ const Contact = () => {
       </div>
       <Container>
         <Row>
-          <Col xs={12} lg={6}>
+          <Col xs={12} lg={6} className="mb-4">
           {
             address?(
                 <div className=" mt-5">
